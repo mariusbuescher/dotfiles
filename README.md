@@ -13,7 +13,6 @@ I use the following software:
 - feh
 - playerctl
 - rofi
-- compton
 
 Please make sure these are installed on your system.
 
@@ -30,6 +29,7 @@ Clone the repository into `$HOME/.dotfiles`. Then start adding the symlinks:
 - .gitconfig -> .dotfiles/gitconfig
 - .editorconfig -> .dotfiles/editorconfig
 - .config/i3/config -> .dotfiles/config/i3/config
+- .Xresources -> .dotfile/Xresources (This one is optional)
 
 ## Customization
 
@@ -37,4 +37,7 @@ There are some ways to customize this setup on a local machine:
 
 - `.gitconfig` loads a file called `.gitlocal` when it is present in your home directory
 - `.zshrc` loads a file called `.zshlocal` when present in your home directory
+
+If you want to customize colors, fonts etc. you can do this by using your own `.Xresources` file. There
+are a bunch of variable you can configure. Please use the `Xresources` file as a reference.
 

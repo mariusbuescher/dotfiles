@@ -1,0 +1,10 @@
+i3.color.bg: #2f343f
+i3.color.border: #5f697f
+i3.color.bgInactive: #2f343f
+i3.color.text: #f3f4f5
+i3.color.textInactive: #676e7d
+i3.color.bgUurgent: #e53935
+
+i3.font.system: System San Francisco Display
+
+i3.desktop.backgroundImage: ~/Pictures/Dont-Panic-Wallpaper-01-1920x1080.jpg
