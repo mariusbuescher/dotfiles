@@ -11,3 +11,11 @@ i3.font.system: System San Francisco Display
 
 ! Background image
 i3.desktop.backgroundImage: ~/Pictures/Dont-Panic-Wallpaper-01-1920x1080.jpg
+
+! Rofi
+rofi.theme: Arc-Dark
+rofi.padding: 800
+rofi.lines: 5
+rofi.width: 60
+rofi.font: System San Francisco Display 18
+
