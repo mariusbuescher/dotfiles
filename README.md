@@ -13,6 +13,8 @@ I use the following software:
 - feh
 - playerctl
 - rofi
+- urxvt
+- gcc
 
 Please make sure these are installed on your system.
 
@@ -20,6 +22,7 @@ I am also using some custom Fonts:
 
 - [Fontawesome](https://fontawesome.com/) for icons
 - [System San Francisco Display](https://github.com/supermarin/YosemiteSanFranciscoFont)
+- [DejaVu](https://dejavu-fonts.github.io)
 
 ## Installation
 
