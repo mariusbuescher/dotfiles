@@ -1,0 +1,31 @@
+[user]
+	email = marius@gridscale.io
+	name = Marius Büscher
+[pull]
+	rebase = true
+[merge]
+    ff = false
+[core]
+	excludesfile = ~/.gitignore_global
+[init]
+	defaultBranch = main
+
+[alias]
+	lab = "!lab"
+        dft = difftool
+
+[diff]
+        tool = difftastic
+
+[difftool]
+        prompt = false
+
+[difftool "difftastic"]
+        cmd = difft "$LOCAL" "$REMOTE"
+[pager]
+        difftool = true
+[credentials]
+	helper = store
+
+[include]
+	path="~/.gitlocal"
