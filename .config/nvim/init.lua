@@ -1,5 +1,6 @@
 require "user.options"
 require "user.keymaps"
 require "user.plugins"
+require "user.nvim-window-picker"
 require "user.nvim-tree"
 require "user.telescope"

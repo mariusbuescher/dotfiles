@@ -46,6 +46,7 @@ return packer.startup(function(use)
 	use { "kyazdani42/nvim-tree.lua", commit = "f3b73725c5a007b8195118bec5868c32a5eff81f" } -- nvim-tree
 	use { "nvim-telescope/telescope.nvim", commit = "5dfd807771dbd68b1b776e489c043337baccf638" } -- Telescope fuzzy file finder
 	use { "nvim-treesitter/nvim-treesitter", commit = "8e763332b7bf7b3a426fd8707b7f5aa85823a5ac" } -- Treesitter syntax highlighting
+	use { "s1n7ax/nvim-window-picker", commit = "5902827d0e338890a22849e2f18dc80d1cc1a8db" } -- Window picker
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
