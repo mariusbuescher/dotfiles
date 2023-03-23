@@ -47,6 +47,7 @@ return packer.startup(function(use)
 	use { "nvim-telescope/telescope.nvim", commit = "5dfd807771dbd68b1b776e489c043337baccf638" } -- Telescope fuzzy file finder
 	use { "nvim-treesitter/nvim-treesitter", commit = "8e763332b7bf7b3a426fd8707b7f5aa85823a5ac" } -- Treesitter syntax highlighting
 	use { "s1n7ax/nvim-window-picker", commit = "5902827d0e338890a22849e2f18dc80d1cc1a8db" } -- Window picker
+	use { "jjo/vim-cue", commit = "bd1a62303d096aa24fe4160a475645087f8770b3" } -- CUE language support
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
