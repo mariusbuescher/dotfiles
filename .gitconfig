@@ -1,6 +1,6 @@
 [user]
 	email = marius@gridscale.io
-	name = Marius Büscher
+	name = Marius Buescher
 [pull]
 	rebase = true
 [merge]
