@@ -48,6 +48,7 @@ return packer.startup(function(use)
 	use { "nvim-treesitter/nvim-treesitter", commit = "8e763332b7bf7b3a426fd8707b7f5aa85823a5ac" } -- Treesitter syntax highlighting
 	use { "s1n7ax/nvim-window-picker", commit = "5902827d0e338890a22849e2f18dc80d1cc1a8db" } -- Window picker
 	use { "jjo/vim-cue", commit = "bd1a62303d096aa24fe4160a475645087f8770b3" } -- CUE language support
+    use { "lewis6991/gitsigns.nvim", commit = "dc2962f7fce953a2a98e7c6d3d7fc4c1d1f66758" } -- git integration
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
