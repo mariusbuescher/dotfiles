@@ -44,7 +44,7 @@ return packer.startup(function(use)
 	use { "nvim-lua/plenary.nvim", commit = "9a0d3bf7b832818c042aaf30f692b081ddd58bd9" } -- Useful lua functions used by lots of plugins
 	use { "kyazdani42/nvim-web-devicons", commit = "a421d183ef37dfa13f51a5805bed2381aebf9080" } -- file icons for nvim-tree
 	use { "kyazdani42/nvim-tree.lua", commit = "f3b73725c5a007b8195118bec5868c32a5eff81f" } -- nvim-tree
-	use { "nvim-telescope/telescope.nvim", commit = "5dfd807771dbd68b1b776e489c043337baccf638" } -- Telescope fuzzy file finder
+	use { "nvim-telescope/telescope.nvim", commit = "7011eaae0ac1afe036e30c95cf80200b8dc3f21a" } -- Telescope fuzzy file finder
 	use { "nvim-treesitter/nvim-treesitter", commit = "8e763332b7bf7b3a426fd8707b7f5aa85823a5ac" } -- Treesitter syntax highlighting
 	use { "s1n7ax/nvim-window-picker", commit = "5902827d0e338890a22849e2f18dc80d1cc1a8db" } -- Window picker
 	use { "jjo/vim-cue", commit = "bd1a62303d096aa24fe4160a475645087f8770b3" } -- CUE language support
