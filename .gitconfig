@@ -29,3 +29,7 @@
 
 [include]
 	path="~/.gitlocal"
+
+[rerere]
+    autoUpdate = true
+    enabled = true
