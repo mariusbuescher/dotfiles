@@ -4,5 +4,6 @@
     "light": "One Light",
     "dark": "One Dark"
   },
+  "buffer_font_family": "Source Code Pro",
   "vim_mode": true
 }
