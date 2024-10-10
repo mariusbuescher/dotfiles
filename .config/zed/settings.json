@@ -5,5 +5,8 @@
     "dark": "One Dark"
   },
   "buffer_font_family": "Source Code Pro",
-  "vim_mode": true
+  "vim_mode": true,
+  "file_types": {
+    "Dockerfile": ["Dockerfile*", "Containerfile*"]
+  }
 }
