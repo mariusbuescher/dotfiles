@@ -1,4 +1,29 @@
 {
+  "assistant": {
+    "default_model": {
+      "provider": "ollama",
+      "model": "mistral:7b"
+    },
+    "version": "2"
+  },
+  "language_models": {
+    "ollama": {
+      "api_url": "http://localhost:11434",
+      "low_speed_timeout_in_seconds": 120,
+      "available_models": [
+        {
+          "name": "qwen2.5-coder:1.5b",
+          "display_name": "qwen 2.5 coder 32K",
+          "max_tokens": 16384
+        },
+        {
+          "name": "mistral:7b",
+          "display_name": "Mistral",
+          "max_tokens": 16384
+        }
+      ]
+    }
+  },
   "theme": {
     "mode": "dark",
     "light": "One Light",
