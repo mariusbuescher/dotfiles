@@ -1,0 +1,1 @@
+REGISTRY_AUTH_FILE="$HOME/.config/containers/auth.json"
