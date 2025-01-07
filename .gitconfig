@@ -1,3 +1,5 @@
+[core]
+    autocrlf = true
 [user]
 	email = marius@gridscale.io
 	name = Marius Buescher
