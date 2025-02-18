@@ -15,9 +15,13 @@
 [alias]
 	lab = "!lab"
     dft = difftool
+    ddiff = diff --ext-diff
+    dshow = show --ext-diff
+    dlog = log -p --ext-diff
 
 [diff]
     tool = difftastic
+    external = difft
 
 [difftool]
     prompt = false
