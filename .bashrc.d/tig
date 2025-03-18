@@ -1,1 +1,0 @@
-alias tig='podman run --rm -ti -v $(pwd):/opt/code:z tig'
