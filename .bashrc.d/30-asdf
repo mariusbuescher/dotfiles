@@ -1,2 +1,2 @@
-export PATH="/var/home/marius/.asdf/shims:/var/home/marius/.local/bin:/var/home/marius/bin:/var/home/marius/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 . <(asdf completion bash)
