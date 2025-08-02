@@ -41,9 +41,9 @@ packer.init({
 
 return packer.startup(function(use)
 	use { "wbthomason/packer.nvim", branch = "master" } -- Have packer manage itself
-	use { "nvim-lua/plenary.nvim", tag = "v0.1.4" } -- Useful lua functions used by lots of plugins
+	use { "nvim-lua/plenary.nvim", branch = "master" } -- Useful lua functions used by lots of plugins
 	use { "kyazdani42/nvim-tree.lua", branch = "master" } -- nvim-tree
-	use { "nvim-telescope/telescope.nvim", tag = "0.1.8" } -- Telescope fuzzy file finder
+	use { "nvim-telescope/telescope.nvim", branch = "0.1.x" } -- Telescope fuzzy file finder
 	use { "nvim-treesitter/nvim-treesitter", branch = "master" } -- Treesitter syntax highlighting
 	use { "s1n7ax/nvim-window-picker", branch = "main" } -- Window picker
     use { "lewis6991/gitsigns.nvim", branch = "main" } -- git integration
