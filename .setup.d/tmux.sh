@@ -1,4 +1,4 @@
-#! /bin/env bash
+#!/bin/env bash
 
 >&2 echo "checking $HOME/.config/tmux"
 if [ ! -h $HOME/.config/tmux ]; then

@@ -1,4 +1,4 @@
-#! /bin/env bash
+#!/bin/env bash
 
 >&2 echo "checking $HOME/.profile"
 if [ ! -h $HOME/.profile ]; then
