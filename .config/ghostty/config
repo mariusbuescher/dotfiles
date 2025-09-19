@@ -1,6 +1,6 @@
 font-family = "Source Code Pro"
 
-theme = GitHub-Dark-Default
+theme = "GitHub Dark Default"
 
 keybind = super+ctrl+up=goto_split:up
 keybind = super+ctrl+down=goto_split:down
