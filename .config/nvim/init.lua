@@ -1,9 +1,2 @@
-require "user.options"
-require "user.keymaps"
-require "user.plugins"
-require "user.nvim-window-picker"
-require "user.nvim-tree"
-require "user.telescope"
-require "user.gitsigns"
-require "user.autocmds"
-require "user.treesitter"
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
