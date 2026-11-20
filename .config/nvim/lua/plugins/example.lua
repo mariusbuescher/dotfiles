@@ -166,6 +166,7 @@ return {
         "gowork",
         "gosum",
         "html",
+        "hcl",
         "javascript",
         "json",
         "lua",
